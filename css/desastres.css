@@ -1,0 +1,496 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex; 
+}
+
+.logo{
+  display: flex;
+}
+.logo h1{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.logo img{
+  width: 58px;
+  height: 58px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #1c2f4f;
+  color: white;
+  height: 235vh; /* Altura total da tela */
+  padding: 17px;
+  margin-right: 30px;
+}
+
+.sidebar a{
+  background-color: #819bb4;
+  font-size: 25px;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+  background-color: #8f99a3;
+}
+
+/* pesquisa e titulo */
+
+.content {
+  /* flex: 1; 
+  padding: 20px; */
+  width: 800px;
+  margin: 0 auto;
+}
+
+.navegacao{
+  margin: 30px 10px 20px 0px;
+  background-color: #1c2f4f;
+  text-align: center;
+  padding: 30px 50px;
+  border-radius: 15px;
+}
+
+.navegacao a{
+  text-decoration: none;
+  color: #fff;
+  padding: 17px;
+  font-size: 18px;
+  background-color: #819bb4;
+  border-radius: 15px;
+  margin: 0 15px;
+}
+
+#titulo{
+  background-color: #1c2f4f;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 30px 300px;
+  
+
+}
+/* sessão dos cards */
+.card {
+  width: 800px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  /* margin-left: 250px; */
+  margin-bottom: 30px;
+}
+/* pagina furacão */
+/* card1 */
+.image-section {
+  background: url('../img/furacao-1.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section {
+  background-color: #000000;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card2 */
+
+.image-section2 {
+  background: url('../img/furacao-2.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section2 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section2 {
+  background-color: #091750;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card3 */
+
+.image-section3 {
+  background: url('../img/furacao-3.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section3 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section3 {
+  background-color: #6d6f7d;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* pagina calor */
+/* card4 */
+.image-section4 {
+  background: url('../img/termometro.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section4 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section4 {
+  background-color: #50301c;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card5 */
+
+.image-section5 {
+  background: url('../img/senhor.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section5 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section5 {
+  background-color: #4c8dab;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card6 */
+
+.image-section6 {
+  background: url('../img/mapa-1.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section6 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section6 {
+  background-color: #c54800;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* pagina frio */
+/* card7 */
+
+.image-section7 {
+  background: url('../img/cidade-1.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section7 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section7 {
+  background-color: #595959;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card8 */
+
+.image-section8 {
+  background: url('../img/termometro-2.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section8 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section8 {
+  background-color: #5d7590;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card9 */
+
+.image-section9 {
+  background: url('../img/carro.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section9 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section9 {
+  background-color: #494e5d;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* pagina chuva */
+/* card10 */
+
+.image-section10 {
+  background: url('../img/chuva.jpg') no-repeat center center/cover;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section10 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section10 {
+  background-color: #202121;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card11 */
+
+.image-section11 {
+  background: url('../img/delisamento.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section11 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section11 {
+  background-color: #6f441c;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card12 */
+
+.image-section12 {
+  background: url('../img/arvore.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section12 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section12 {
+  background-color: #2a1f0d;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* pagina enchentes */
+/* card13 */
+
+.image-section13 {
+  background: url('../img/enchente-1.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section13 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section13 {
+  background-color: #a0814f;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card14 */
+
+.image-section14 {
+  background: url('../img/resgate.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section14 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section14 {
+  background-color: #5d4c2e;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+/* card15 */
+
+.image-section15 {
+  background: url('../img/enchente-2.jpg') no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.image-section15 h1 {
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.7);
+  width: 20px;
+  margin:0px 10px;
+}
+
+.text-section15 {
+  background-color: #4a3c24;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+  font-size: 14px;
+}
