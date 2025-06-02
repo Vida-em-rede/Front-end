@@ -83,6 +83,11 @@ body {
   margin: 0 15px;
 }
 
+.navegacao a:hover{
+  background-color: #51697f;
+  transition: 0.3s;
+}
+
 #titulo{
   background-color: #1c2f4f;
   color: #fff;

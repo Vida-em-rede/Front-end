@@ -60,7 +60,17 @@ h2{
     text-align: center;
     background-color: #1c2f4f;
     color: #fff;
+    margin: 20px 300px;
+    padding: 10px;
+    border-radius: 15px;
     
+}
+
+.content {
+  /* flex: 1; 
+  padding: 20px; */
+  width: 800px;
+  margin: 0 auto;
 }
 
 /* cartões */
@@ -90,7 +100,10 @@ h2{
     margin: 15px 0;
     /* display: flex;
     float: right; */
+  }
 
+  .imagem img{
+    width: 400px;
   }
   
   .button {
