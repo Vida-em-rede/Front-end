@@ -56,18 +56,27 @@ body {
     background-color: #8f99a3;
   }
 
-  .link{
-    text-decoration: none;
-    color: #000000;
-    font-size: 25px;
+  .link {
+  text-decoration: none;
+  color: #000000;
+  font-size: 25px;
+
+  display: block;   /* ou inline-block */
+  text-align: right;
+  margin-right: 20px; /* ou 0 para encostar na borda */
+}
   
-  }
-  
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px; /* opcional, pra afastar da borda */
+}
+
 h2{
     text-align: center;
     background-color: #1c2f4f;
     color: #fff;
-    margin: 400px 300px 20px ;
+    margin: 10px 300px 20px ;
     padding: 10px;
     border-radius: 15px;
     ;

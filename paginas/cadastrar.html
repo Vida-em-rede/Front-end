@@ -8,42 +8,40 @@
 </head>
 <body>
     <header>
-        <section>
-            <div class="sidebar">
-                <div class="logo">
-                    <img src="../img/furao.png" alt="é um furão">
-                    <h1>Vida em rede</h1>
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Desastres</a></li>
-                        <li><a href="../paginas/desaparecidos.html">Desaparecidos</a></li>
-                        <li><a href="../paginas/contato.html">Contato</a></li>
-                        <li><a href="../paginas/projeto.html">Projeto</a></li>
-                    </ul>
-                </nav>
+        <div class="sidebar">
+            <div class="logo">
+                <img src="../img/furao.png" alt="é um furão">
+                <h1>Vida em rede</h1>
             </div>
-        </section>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Desastres</a></li>
+                    <li><a href="../paginas/desaparecidos.html">Desaparecidos</a></li>
+                    <li><a href="../paginas/contato.html">Contato</a></li>
+                    <li><a href="../paginas/projeto.html">Projeto</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main class="content">
         <section class="alinhar">    
-            <h2>Contato</h2>
+            <h2>Cadastro</h2>
 
-            <h3>Compartilhe sua dúvida, relato ou comentário para nós!</h2>
+            <h3>Aqui você pode cadastrar pessoas desaparecidas</h2>
 
             <div class="form-container">
                 <form>
                     <label for="nome">nome:</label>
                     <input type="text" id="nome" name="nome" required>
 
-                    <label for="email">email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <label for="Idade">Idade:</label>
+                    <input type="number" id="Idade" name="Idade" required>
 
-                    <label for="numero">numero:</label>
-                    <input type="text" id="numero" name="numero">
+                    <label for="numero">Ultimo horario visto:</label>
+                    <input type="time" id="numero" name="numero">
 
-                    <label for="duvida">Duvida:</label>
-                    <textarea id="duvida" name="duvida" rows="4"></textarea>
+                    <label for="Relato">Relato antes do sumiço:</label>
+                    <textarea id="Relato" name="Relato" rows="4"></textarea>
 
                     <button type="submit">Enviar</button>
                 </form>
