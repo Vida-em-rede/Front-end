@@ -22,7 +22,7 @@ body {
   width: 200px;
   background-color: #1c2f4f;
   color: white;
-  height: 120vh; /* Altura total da tela */
+  height: 100%; 
   padding: 17px;
   margin-right: 30px;
 }
