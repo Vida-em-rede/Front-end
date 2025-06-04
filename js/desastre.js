@@ -1,6 +1,11 @@
-const toggleBtn = document.getElementById('toggleBtn');
+const openSidebar = document.getElementById('openSidebar');
+const closeSidebar = document.getElementById('closeSidebar');
 const sidebar = document.getElementById('sidebar');
 
-toggleBtn.addEventListener('click', () => {
-  sidebar.classList.toggle('hidden');
+openSidebar.addEventListener('click', () => {
+  sidebar.classList.remove('hidden');
+});
+
+closeSidebar.addEventListener('click', () => {
+  sidebar.classList.add('hidden');
 });

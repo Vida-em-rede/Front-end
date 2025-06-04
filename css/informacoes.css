@@ -25,6 +25,7 @@ body {
   height: 100%;
   padding: 17px;
   margin-right: 30px;
+  position: fixed;
 }
 
 .sidebar a{
@@ -57,61 +58,12 @@ body {
   background-color: #8f99a3;
 }
 
-/* pagina de equipe */
-
-.sidebar1 {
-  width: 200px;
-  background-color: #1c2f4f;
-  color: white;
-  height: 270vh; /* Altura total da tela */
-  padding: 17px;
-  margin-right: 30px;
-}
-
-.sidebar1 a{
-  background-color: #819bb4;
-  font-size: 25px;
-}
-
-.sidebar1 h2 {
-  margin-bottom: 20px;
-}
-
-.sidebar1 ul {
-  list-style: none;
-  padding: 0;
-}
-
-.sidebar1 ul li {
-  margin-bottom: 10px;
-}
-
-.sidebar1 ul li a {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 8px;
-  border-radius: 4px;
-}
-
-.sidebar1 ul li a:hover {
-  background-color: #8f99a3;
-}
-
-iframe{
-  width: 800px;
-  height: 400px;
-  border-radius: 15px;
-  margin-bottom: 30px;
-}
-
-/* ............... */
 
 .content {
   /* flex: 1; 
   padding: 20px; */
   width: 800px;
-  margin: 0 auto;
+  margin-left: 490px;
 }
 
 h2{
@@ -127,6 +79,11 @@ h2{
 h3{
   text-align: center;
   font-size: 26px;
+}
+iframe{
+  width: 800px;
+  height: 400px;
+  margin-bottom: 30px;
 }
 
 .navegacao{
