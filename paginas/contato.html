@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato-Vida em rede</title>
     <link rel="stylesheet" href="../css/formulario.css">
-    <script src="../js/formulario.js"></script>
+    <script src="../js/formulario.js" defer></script>
 </head>
 <body>
     <header>
-        <div class="sidebar">
+        <div class="sidebar" id="sidebar">
             <div class="logo">
-                <img src="../img/furao.png" alt="é um furão">
+                <button id="closeSidebar">✖</button>
                 <h1>Vida em rede</h1>
+                
             </div>
             <nav>
                 <ul>
@@ -23,6 +24,7 @@
                 </ul>
             </nav>
         </div>
+        <button id="openSidebar">☰</button>
     </header>
     <main class="content">
         <section class="alinhar">    
