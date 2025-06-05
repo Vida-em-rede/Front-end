@@ -1,6 +1,6 @@
 # 📢Site registro de desaparecidos e auxílio
 
-##🧷 Descrição
+## 🧷 Descrição
 Nosso projeto consiste na criação de uma plataforma online para auxiliar na busca por pessoas desaparecidas e na prevenção de acidentes durante desastres naturais. O site oferece informações sobre desaparecidos, como nome, local e horário do último relato, além de orientações de segurança.Também desenvolvemos um sistema de armazenamento de dados para consulta por familiares e autoridades.Além disso, criamos um chatbot que fornece orientações rápidas para quem não está em risco imediato.O objetivo é agilizar o resgate, informar a população e contribuir para uma sociedade mais segura e preparada.
 
 ## 📌 Objetivo do Projeto
