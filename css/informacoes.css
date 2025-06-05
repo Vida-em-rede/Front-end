@@ -162,6 +162,21 @@ iframe{
   margin: 10px 20px;
 }
 
+.texto a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #51697f;
+  border: #819bb4 solid 2px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+}
+
+.texto a:hover{
+  background-color: #819bb4;
+  transition: 0.3s ease-out;
+}
+
 .integrantes{
   display: flex;
 }
@@ -222,3 +237,7 @@ iframe{
   transition: 0.3s ease-out;
 }
 
+ @media ( min-width:600px ){
+
+  
+  } 
