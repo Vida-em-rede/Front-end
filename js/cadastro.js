@@ -1,10 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('ContentLoaded', function() {
   const form = document.querySelector('form');
 
   form.addEventListener('submit', function(event) {
     const nome = document.getElementById('nome').value.trim();
     const idade = document.getElementById('idade').value;
     const relato = document.getElementById('relato').value.trim();
+
+
 
     let mensagemErro = '';
 
@@ -33,4 +35,16 @@ document.addEventListener('DOMContentLoaded', function() {
       alert('Formulário enviado com sucesso!');
     }
   });
+});
+
+const openSidebar = document.getElementById('openSidebar');
+const closeSidebar = document.getElementById('closeSidebar');
+const sidebar = document.getElementById('sidebar');
+
+openSidebar.addEventListener('click', () => {
+  sidebar.classList.remove('hidden');
+});
+
+closeSidebar.addEventListener('click', () => {
+  sidebar.classList.add('hidden');
 });

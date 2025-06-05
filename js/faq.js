@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("ContentLoaded", function() {
   const questions = document.querySelectorAll('.question');
 
   questions.forEach(q => {
@@ -16,4 +16,16 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
   });
+});
+
+const openSidebar = document.getElementById('openSidebar');
+const closeSidebar = document.getElementById('closeSidebar');
+const sidebar = document.getElementById('sidebar');
+
+openSidebar.addEventListener('click', () => {
+  sidebar.classList.remove('hidden');
+});
+
+closeSidebar.addEventListener('click', () => {
+  sidebar.classList.add('hidden');
 });
