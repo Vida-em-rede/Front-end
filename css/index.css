@@ -5,6 +5,7 @@ body {
 }
 main{
   min-height: 85vh;
+ 
 }
 
 .logo{
@@ -547,7 +548,60 @@ footer{
   font-size: 14px;
 }
 
-@media ( min-width:600px ){
-
+@media (max-width: 600px){
+  .content {
+    width: 800px;
+    margin-left: 0px;
+  }
+  .navegacao{
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 150px;
+    background-color: #1c2f4f;
+    color: white;
+    height: 45%; 
+    padding: 17px;
+    margin-right: 10px;
+    position: absolute;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+    top: 20px;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:15px ;
+  }
+  .sidebar.hidden {
+    transform: translateX(-100%);
+  }
   
-} 
+  .sidebar a{
+    background-color: #819bb4;
+    font-size: 15px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #8f99a3;
+  }
+}
+  
