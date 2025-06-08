@@ -1,4 +1,4 @@
-document.addEventListener('ContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   const form = document.querySelector('form');
 
   form.addEventListener('submit', function(event) {
@@ -7,41 +7,49 @@ document.addEventListener('ContentLoaded', function() {
     const numero = document.getElementById('numero').value.trim();
     const duvida = document.getElementById('duvida').value.trim();
     let mensagemErro = '';
+
     if (!nome) {
       mensagemErro += 'Por favor, preencha o nome.\n';
-    } else if (/\d/.test(nome)) {   // Aqui: verifica se tem número
+    } else if (/\d/.test(nome)) { 
       mensagemErro += 'O nome não pode conter números.\n';
     }
+
     if (!email) {
       mensagemErro += 'Por favor, preencha o e-mail.\n';
     } else if (!/\S+@\S+\.\S+/.test(email)) {
       mensagemErro += 'Por favor, insira um e-mail válido.\n';
     }
+
     if (!numero) {
       mensagemErro += 'Por favor, preencha o número.\n';
     } else if (!/^\d+$/.test(numero)) {
       mensagemErro += 'O número deve conter apenas dígitos.\n';
+    } else if (numero.length !== 11) {
+      mensagemErro += 'O número deve conter 11 dígitos.\n';
     }
+
     if (!duvida) {
       mensagemErro += 'Por favor, preencha sua dúvida.\n';
     }
+
     if (mensagemErro) {
       alert(mensagemErro);
-      event.preventDefault();  // Impede o envio
+      event.preventDefault();  
     } else {
       alert('Formulário enviado com sucesso!');
     }
   });
-});
 
-const openSidebar = document.getElementById('openSidebar');
-const closeSidebar = document.getElementById('closeSidebar');
-const sidebar = document.getElementById('sidebar');
+  // sidebar toggle
+  const openSidebar = document.getElementById('openSidebar');
+  const closeSidebar = document.getElementById('closeSidebar');
+  const sidebar = document.getElementById('sidebar');
 
-openSidebar.addEventListener('click', () => {
-  sidebar.classList.remove('hidden');
-});
+  openSidebar.addEventListener('click', () => {
+    sidebar.classList.remove('hidden');
+  });
 
-closeSidebar.addEventListener('click', () => {
-  sidebar.classList.add('hidden');
+  closeSidebar.addEventListener('click', () => {
+    sidebar.classList.add('hidden');
+  });
 });

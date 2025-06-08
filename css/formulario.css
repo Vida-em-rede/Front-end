@@ -184,3 +184,167 @@ button {
 button:hover {
   background-color: #8f99a3;
 }
+
+@media (max-width: 600px) {
+  .content {
+    width: 100%;
+    margin-left: 0;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar {
+    width: 70%;
+    height: 100%;
+    border-radius: 0;
+    padding: 10px;
+  }
+
+  #openSidebar {
+    font-size: 30px;
+    margin: 10px;
+  }
+
+  #closeSidebar {
+    font-size: 25px;
+  }
+
+  .sidebar ul li a {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  .alinhar h2 {
+    margin: 10px 20px !important;
+    font-size: 1.5em;
+    padding: 10px;
+  }
+
+  
+
+  .alinhar h3 {
+    font-size: 1.2em;
+    padding: 15px 20px;
+    margin: 10px 0;
+  }
+
+  .form-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+  }
+
+  form {
+    gap: 8px;
+  }
+
+  input, textarea {
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  button {
+    margin: 10px auto;
+    width: 80%;
+    padding: 8px;
+  }
+
+  footer p {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  
+}
+
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .content {
+    width: 100%;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .sidebar {
+    width: 250px;
+  }
+
+  .alinhar h2 {
+    margin: 15px 100px !important;
+  }
+
+  .alinhar h3 {
+    padding: 15px 40px;
+  }
+
+  .form-container {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  button {
+    margin: 10px auto;
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .content {
+    width: 70%;
+    margin-left: 120px;
+  }
+
+  .sidebar {
+    width: 250px;
+  }
+
+  .alinhar h2 {
+    margin: 15px 150px !important;
+  }
+
+  .form-container {
+    width: 70%;
+    margin: 30px auto;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+  .content {
+    width: 70%;
+    margin-left: 350px;
+  }
+
+  .sidebar {
+    width: 300px;
+  }
+
+  .alinhar h2 {
+    margin: 15px 200px !important;
+  }
+
+  .form-container {
+    width: 60%;
+    margin: 30px auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .content {
+    width: 800px;
+    margin-left: 420px;
+  }
+
+  .sidebar {
+    width: 350px;
+  }
+
+  .alinhar h2 {
+    margin: 20px 300px !important;
+  }
+
+  .form-container {
+    margin: 50px 210px;
+  }
+}
